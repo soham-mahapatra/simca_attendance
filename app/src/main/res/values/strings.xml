@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Simca Attendance</string>
+    <string name="empty_username">username cannot be empty</string>
+    <string name="empty_password">password cannot be empty</string>
+    <string name="invalid_name">Please enter name</string>
+    <string name="invalid_mobile">Please enter phone no.</string>
+    <string name="invalid_email">Please enter email</string>
+    <string name="invalid_password">Password cannot be empty</string>
+    <string name="invalid_roll">Please enter roll no.</string>
+    <string-array name="division">
+        <item>Select division</item>
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+
+</resources>

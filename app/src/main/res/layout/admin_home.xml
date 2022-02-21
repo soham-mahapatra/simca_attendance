@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".adminHome">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/layoutBar_dash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_admin_home"
+            android:background="?attr/colorSecondary"
+            android:backgroundTint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <Button
+        android:id="@+id/qr_gen_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutBar_dash"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/black"
+        android:background="@drawable/edit_text_bg"
+        android:text="generate qr"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/code_gen_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/qr_gen_btn"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:background="@drawable/edit_text_bg"
+        android:text="generate code"/>
+
+    <Button
+        android:id="@+id/admin_home_view_atn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/code_gen_btn"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:background="@drawable/edit_text_bg"
+        android:text="View attendance"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".viewAtnSelectSub">
+
+    <RelativeLayout
+        android:layout_marginTop="56dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/view_atn_select_JAVA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:text="JAVA"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/view_atn_select_DSA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="DSA"
+        android:textSize="20dp"
+        android:layout_below="@id/view_atn_select_JAVA"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/view_atn_select_NT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:backgroundTint="@color/black"
+        android:text="NT"
+        android:textSize="20dp"
+        android:layout_below="@id/view_atn_select_DSA"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view_atn_select_OOSE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:backgroundTint="@color/black"
+            android:text="OOSE"
+            android:textSize="20dp"
+            android:layout_below="@id/view_atn_select_NT"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view_atn_select_OSC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:backgroundTint="@color/black"
+            android:text="OSC"
+            android:textSize="20dp"
+            android:layout_below="@id/view_atn_select_OOSE"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view_atn_select_rnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:backgroundTint="@color/black"
+            android:text="R &amp; D"
+            android:textSize="20dp"
+            android:layout_below="@id/view_atn_select_OSC"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view_atn_select_APTI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:backgroundTint="@color/black"
+            android:text="Aptitude"
+            android:textSize="20dp"
+            android:layout_below="@id/view_atn_select_rnd"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view_atn_select_SS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:backgroundTint="@color/black"
+            android:text="Soft Skills"
+            android:textSize="20dp"
+            android:layout_below="@id/view_atn_select_APTI"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>

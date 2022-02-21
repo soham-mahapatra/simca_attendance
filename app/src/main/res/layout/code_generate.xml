@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".codeGenerate">
+
+    <Spinner
+        android:id="@+id/subjectSpin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/black" />
+
+    <TextView
+        android:id="@+id/code_gen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subjectSpin"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:text="Your code is: "
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/code_gen_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/code_gen"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/code_gen_expiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/code_gen_number"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+</RelativeLayout>
